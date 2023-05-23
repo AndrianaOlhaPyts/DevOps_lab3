@@ -8,7 +8,7 @@ else
 curl -s --user 'api:e833fca264caf6c1adcf065921d944a3-181449aa-fb5a0dfc' \
 	https://api.mailgun.net/v3/sandboxbe80319ed83d4a2ab36ae43fb081abfd.mailgun.org/messages \
 	-F from='Excited User <mailgun@sandboxbe80319ed83d4a2ab36ae43fb081abfd.mailgun.org>' \
-	-F to=kkhutka@gmail.com \
+	-F to=olyapits17@gmail.com \
 	-F subject='Server Response' \
 	-F text='Response code is not 2xx or 3xx'
  echo "Response code is $response. Error"
